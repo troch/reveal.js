@@ -1,0 +1,66 @@
+.document {
+    width: 90% !important;
+    position: relative !important;
+    margin: 15px auto !important;
+    font-size: 18px !important;
+    text-align: left !important;
+    border: 2px solid #CCC !important;
+    background-color: white !important;
+    padding: 20px !important;
+}
+
+iframe {
+    display: block !important;
+    width: 90% !important;
+    height: 300px;
+    margin: 15px auto !important;
+    border: 2px solid #CCC !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+[class^='el'] {
+    padding: 10px !important;
+    line-height: 1.3em !important;
+    color: white !important;
+}
+
+div[class^='el'] {
+    margin-bottom: 5px;
+}
+
+span[class^='el']  {
+    margin-right: 3px;
+}
+
+.el-1 {
+    background-color: #E18942;
+}
+
+.el-2 {
+    background-color: #B95835;
+}
+
+.el-3 {
+    background-color: #3D3242;
+}
+
+.el-4 {
+    background-color: #7A3E48;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.center {
+    text-align: center;
+}
